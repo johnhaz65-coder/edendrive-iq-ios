@@ -14,11 +14,9 @@ final class SettingsStore: ObservableObject {
     @Published var travelSpeed: Double { didSet { defaults.set(travelSpeed, forKey: "travelSpeed") } }
 
     init() {
-        // Use a local reference during initialization so no instance property
-        // is accessed before all @Published properties have been initialized.
-        let initialDefaults = UserDefaults.standard
+        // Read defaults directly during initialization (without accessing self).
         func read(_ key: String, default value: Double) -> Double {
-            initialDefaults.object(forKey: key) == nil ? value : initialDefaults.double(forKey: key)
+            UserDefaults.standard.object(forKey: key) == nil ? value : UserDefaults.standard.double(forKey: key)
         }
         targetGrossEURMinute = read("targetGrossEURMinute", default: 1)
         consumption = read("consumption", default: 16)
