@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+/* Begin PBXBuildFile section */
+    A8974D7FDFEF5AABA5EA6F3B /* CaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D814FF164365E94A781BE47 /* CaptureManager.swift */; };
+    928AA149D44A5BF28F480DC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5784B54CF6AA56C0999293DD /* ContentView.swift */; };
+    F0BDFF61D1325957BE54F390 /* DriverLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42160C2E80BA5C188C538D61 /* DriverLocation.swift */; };
+    D1CE845E937F513699D49B1D /* EdenDriveIQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1A756E77F5CC59755D69F /* EdenDriveIQApp.swift */; };
+    536316B144B85CDCA591D8A0 /* FrameOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C3E96398858599E4ACB3D /* FrameOCR.swift */; };
+    9CEFEDF8787B59A38C923E19 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4B2D2D39B5979B39EF2F0 /* NotificationService.swift */; };
+    8522EFE6DC355DDBA52092F9 /* OfferParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF58602B275C9CBF3AC1FA /* OfferParser.swift */; };
+    5BBAD32A60AF5F74A291B309 /* Profitability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C45F985C15A2FA3AFC7D2 /* Profitability.swift */; };
+    54251832121058C68CCFDB97 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4002ECB265F09861CA46B /* SettingsStore.swift */; };
+    AF28A1D00F7B5F5A83149434 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFC7FC414F5E3AA4C34C2B /* SettingsView.swift */; };
+    2DAE5BC6CA61552189D58CC3 /* TrafficETAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD35193A1A573393ED5FD3 /* TrafficETAService.swift */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+    9D814FF164365E94A781BE47 /* CaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureManager.swift; sourceTree = "<group>"; };
+    5784B54CF6AA56C0999293DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+    42160C2E80BA5C188C538D61 /* DriverLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLocation.swift; sourceTree = "<group>"; };
+    B2D1A756E77F5CC59755D69F /* EdenDriveIQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdenDriveIQApp.swift; sourceTree = "<group>"; };
+    8D1C3E96398858599E4ACB3D /* FrameOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameOCR.swift; sourceTree = "<group>"; };
+    63D4B2D2D39B5979B39EF2F0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+    CAFF58602B275C9CBF3AC1FA /* OfferParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferParser.swift; sourceTree = "<group>"; };
+    344C45F985C15A2FA3AFC7D2 /* Profitability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profitability.swift; sourceTree = "<group>"; };
+    DBD4002ECB265F09861CA46B /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+    3EBFC7FC414F5E3AA4C34C2B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+    C4AD35193A1A573393ED5FD3 /* TrafficETAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficETAService.swift; sourceTree = "<group>"; };
+    3BCFF6CFA50453A6BABF5E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    7A6403467D7557E0A8F26637 /* EdenDriveIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdenDriveIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+    C02DBD7BA71D514EA76947EF = {isa = PBXGroup; children = (A0632FBA92745B0EB7ED439A /* EdenDriveIQ */, ED8D9F8F793D5A5398F4D3E8 /* Products */, ); sourceTree = "<group>"; };
+    A0632FBA92745B0EB7ED439A /* EdenDriveIQ */ = {isa = PBXGroup; children = (
+        9D814FF164365E94A781BE47 /* CaptureManager.swift */,
+        5784B54CF6AA56C0999293DD /* ContentView.swift */,
+        42160C2E80BA5C188C538D61 /* DriverLocation.swift */,
+        B2D1A756E77F5CC59755D69F /* EdenDriveIQApp.swift */,
+        8D1C3E96398858599E4ACB3D /* FrameOCR.swift */,
+        63D4B2D2D39B5979B39EF2F0 /* NotificationService.swift */,
+        CAFF58602B275C9CBF3AC1FA /* OfferParser.swift */,
+        344C45F985C15A2FA3AFC7D2 /* Profitability.swift */,
+        DBD4002ECB265F09861CA46B /* SettingsStore.swift */,
+        3EBFC7FC414F5E3AA4C34C2B /* SettingsView.swift */,
+        C4AD35193A1A573393ED5FD3 /* TrafficETAService.swift */,
+        3BCFF6CFA50453A6BABF5E61 /* Info.plist */,
+    ); path = EdenDriveIQ; sourceTree = "<group>"; };
+    ED8D9F8F793D5A5398F4D3E8 /* Products */ = {isa = PBXGroup; children = (7A6403467D7557E0A8F26637 /* EdenDriveIQ.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXFrameworksBuildPhase section */
+    92F1E75E67ED57D18C3AB056 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+    110D701B54D35FC09FDA7973 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+    EE52C4350ACB52DBA9A34D2B /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+        A8974D7FDFEF5AABA5EA6F3B /* CaptureManager.swift in Sources */,
+        928AA149D44A5BF28F480DC9 /* ContentView.swift in Sources */,
+        F0BDFF61D1325957BE54F390 /* DriverLocation.swift in Sources */,
+        D1CE845E937F513699D49B1D /* EdenDriveIQApp.swift in Sources */,
+        536316B144B85CDCA591D8A0 /* FrameOCR.swift in Sources */,
+        9CEFEDF8787B59A38C923E19 /* NotificationService.swift in Sources */,
+        8522EFE6DC355DDBA52092F9 /* OfferParser.swift in Sources */,
+        5BBAD32A60AF5F74A291B309 /* Profitability.swift in Sources */,
+        54251832121058C68CCFDB97 /* SettingsStore.swift in Sources */,
+        AF28A1D00F7B5F5A83149434 /* SettingsView.swift in Sources */,
+        2DAE5BC6CA61552189D58CC3 /* TrafficETAService.swift in Sources */,
+    ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXNativeTarget section */
+    B0FB884382F853F9A2A7738D /* EdenDriveIQ */ = {isa = PBXNativeTarget; buildConfigurationList = 8036C21BAE595E18AD0B3142 /* Build configuration list for PBXNativeTarget "EdenDriveIQ" */; buildPhases = (EE52C4350ACB52DBA9A34D2B /* Sources */, 92F1E75E67ED57D18C3AB056 /* Frameworks */, 110D701B54D35FC09FDA7973 /* Resources */,); buildRules = (); dependencies = (); name = EdenDriveIQ; productName = EdenDriveIQ; productReference = 7A6403467D7557E0A8F26637 /* EdenDriveIQ.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+    1BDF678ACF425D84A84A1318 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2700; TargetAttributes = {B0FB884382F853F9A2A7738D = {CreatedOnToolsVersion = 27.0; ProvisioningStyle = Automatic;};};}; buildConfigurationList = 6AF4683C842A5EC383FDC1BE; compatibilityVersion = "Xcode 14.0"; developmentRegion = fr; hasScannedForEncodings = 0; knownRegions = (fr, en, Base,); mainGroup = C02DBD7BA71D514EA76947EF; productRefGroup = ED8D9F8F793D5A5398F4D3E8; projectDirPath = ""; projectRoot = ""; targets = (B0FB884382F853F9A2A7738D /* EdenDriveIQ */,); };
+/* End PBXProject section */
+/* Begin XCBuildConfiguration section */
+    568E4958A5325B34A48330F3 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 27.0; TARGETED_DEVICE_FAMILY = 1; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+    49AA4C9388F455F68F595D59 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 27.0; TARGETED_DEVICE_FAMILY = 1; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+    CE2AB5CF9CCC5DF9BF31A473 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = fr.edendrive.iq; INFOPLIST_FILE = EdenDriveIQ/Info.plist; GENERATE_INFOPLIST_FILE = NO; CODE_SIGN_STYLE = Automatic; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 27.0; TARGETED_DEVICE_FAMILY = 1; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; DEBUG_INFORMATION_FORMAT = dwarf;}; name = Debug; };
+    497E5FF2190D5C5D9E534111 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = fr.edendrive.iq; INFOPLIST_FILE = EdenDriveIQ/Info.plist; GENERATE_INFOPLIST_FILE = NO; CODE_SIGN_STYLE = Automatic; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 27.0; TARGETED_DEVICE_FAMILY = 1; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";}; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+    6AF4683C842A5EC383FDC1BE /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (568E4958A5325B34A48330F3 /* Debug */, 49AA4C9388F455F68F595D59 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    8036C21BAE595E18AD0B3142 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (CE2AB5CF9CCC5DF9BF31A473 /* Debug */, 497E5FF2190D5C5D9E534111 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+  };
+  rootObject = 1BDF678ACF425D84A84A1318 /* Project object */;
+}

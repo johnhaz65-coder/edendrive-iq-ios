@@ -1,0 +1,22 @@
+# Xcode / Apple
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+*.ipa
+*.app
+*.dSYM
+*.dSYM.zip
+*.mobileprovision
+*.p12
+*.cer
+*.pem
+*.key
+
+# Local secrets and artifacts
+.env
+.env.*
+!.env.example
+*.log
